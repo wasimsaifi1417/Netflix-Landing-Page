@@ -230,6 +230,204 @@ footer {
     flex-direction: column;
     gap: 15px;
 }
-footer .call{
+
+footer .call {
     padding: 34px 0;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .fonta {
+        font-size: 33px;
+    }
+
+    .membership :nth-child(3) {
+        font-size: 25px;
+        font-weight: 200;
+    }
+
+    .membership :nth-child(4) {
+        font-size: 25px;
+        font-weight: 200;
+    }
+    .first div :first-child {
+        font-size: 44px;
+    }
+    .main input {
+        padding: 6px 28px;
+        font-size: 16px;
+    }
+
+    .btn-red {
+        padding: 6px 25px;
+        font-size: 16px;
+    }
+
+    .mfont {
+        font-size: 40px;
+    }
+
+    .six {
+        height: 28px;
+        width: 70vw;
+        font-size: 22px;
+        padding: 18px;
+    }
+
+
+
+    .foot {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .mailbtn {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+
+@media screen and (max-width: 1000px) {
+    .fonta {
+        font-size: 25px;
+    }
+
+    .membership :nth-child(3) {
+        font-size: 20px;
+        font-weight: 200;
+    }
+
+    .membership :nth-child(4) {
+        font-size: 20px;
+        font-weight: 200;
+    }
+    
+    .first div :first-child {
+        font-size: 40px;
+    }
+
+    .main input {
+        padding: 5px 28px;
+        font-size: 14px;
+    }
+
+    .btn-red {
+        padding: 4px 22px;
+        font-size: 13px;
+    }
+
+    .mfont {
+        font-size: 35px;
+    }
+
+
+    .six {
+        height: 24px;
+        width: 70vw;
+        font-size: 20px;
+        padding: 18px;
+    }
+
+    .foot {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .englishbtn {
+        display: flex;
+        gap: 10px;
+        margin: 10px;
+    }
+
+    nav {
+        gap: 60px;
+        max-width: 69vw;
+        justify-content: space-between;
+        margin: 6px;
+        display: flex;
+        align-items: baseline;
+        height: 65px;
+    }
+
+    .fonta {
+        font-size: 20px;
+    }
+
+    .membership :nth-child(3) {
+        font-size: 16px;
+        font-weight: 200;
+    }
+
+    .membership :nth-child(4) {
+        font-size: 13px;
+        font-weight: 200;
+    }
+
+    .main input {
+        padding: 4px 26px;
+        font-size: 10px;
+    }
+
+    .btn-red {
+        padding: 4px 22px;
+        font-size: 10px;
+    }
+
+    .first div :first-child {
+        font-size: 20px;
+        height: 170;
+    }
+
+    .fontb {
+        font-size: 12px;
+    }
+
+    .mfont {
+        font-size: 20px;
+    }
+
+    .six {
+        height: 20px;
+        width: 70vw;
+        font-size: 16px;
+        padding: 14px;
+    }
+    .secimg video {
+        position: absolute;
+        top: 20px;
+        right: 11px;
+        width: 23vw;
+    }
+    .thirdsecimg video {
+        width: 18vw;
+        right: 22px;
+        top: 12px;
+    }  
+
+
+    /* .mailbtn {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+    } */
+
+    .forth input {
+        padding: 4px 0px;
+        font-size: 16px;
+        border-radius: 4px;
+        background-color: rgba(23, 23, 23, 0.2);
+        color: white;
+
+    }
+
+
+    .foot {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
